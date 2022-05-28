@@ -24,8 +24,19 @@ Visit http://localhost:8080/
 ## Usage
 
 ```python
-VSC
+# Attach Shell php-apache 
+$ docker compose exec php-apache /bin/bash
+# Attach Shell database 
+$ docker compose exec database /bin/bash
+# Shutdown
+$ docker compose down
+
 ```
+
+
+
+## Inspired from [here](https://www.twilio.com/blog/get-started-docker-laravel)
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
